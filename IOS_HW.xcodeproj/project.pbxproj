@@ -10,9 +10,22 @@
 		C55BF90E2DF0ED0800C226D3 /* IOS_HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_HW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		996839292DF7007E000F363E /* Exceptions for "IOS_HW" folder in "IOS_HW" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C55BF90D2DF0ED0800C226D3 /* IOS_HW */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C55BF9102DF0ED0800C226D3 /* IOS_HW */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				996839292DF7007E000F363E /* Exceptions for "IOS_HW" folder in "IOS_HW" target */,
+			);
 			path = IOS_HW;
 			sourceTree = "<group>";
 		};

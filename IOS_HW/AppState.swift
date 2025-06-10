@@ -1,29 +1,24 @@
-
 import Foundation
-import  Combine
+import Combine
 
-
-class AppState: ObservableObject{
-    @Published var PlayerName: String = ""
-    @Published var  PlayerSide: String = ""
+class AppState: ObservableObject {
+    @Published var playerName: String = ""
+    @Published var playerSide: String = ""
     @Published var currentScreen: Screen = .welcome
-    @Published var PlayScore = 0
-    @Published var pcScore = 0
-    
-    enum Screen{
-        case welcome,game,summary
+    @Published var playerScore: Int = 0
+    @Published var pcScore: Int = 0
+
+    enum Screen {
+        case welcome, game, summary
     }
-    
-    func resetGame(){
-        PlayScore = 0
+
+    func resetGame() {
+        playerScore = 0
         pcScore = 0
-        currentScreen =  .game
+        currentScreen = .game
     }
-    
-    func endGame(){
+
+    func endGame() {
         currentScreen = .summary
     }
-    
-
-
 }
