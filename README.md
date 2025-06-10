@@ -70,10 +70,12 @@ https://drive.google.com/file/d/1EfS80wJyJkVepL99I9doqALMIQ5XfeUc/view?usp=drive
 4. After 10 rounds, the summary screen displays the winner  
 
 ---
+## 📸 ScreenShots
 
-## 📸 Simulator Recording
+![image](https://github.com/user-attachments/assets/f93c5cbb-9a4e-43c1-978e-9ae90b059939) ![image](https://github.com/user-attachments/assets/51876127-096e-4dbd-8e73-5bdc6df80eb7) ![image](https://github.com/user-attachments/assets/d93f676f-fa48-48ae-98da-fdcf098800d0)
 
-To record gameplay:  
-- Use QuickTime or the Terminal command:  
-  ```bash
-  xcrun simctl io booted recordVideo game_demo.mov
+
+
+
+---
+
